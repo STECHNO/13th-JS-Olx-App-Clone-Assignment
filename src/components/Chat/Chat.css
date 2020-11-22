@@ -1,0 +1,290 @@
+.b {
+  border: 1px solid red;
+}
+
+.bor {
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 0 0 10px 0;
+}
+
+.inbox {
+  background-color: #ebeeef;
+  height: 65px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inbox p {
+  font-weight: 700;
+}
+
+.quick_filters {
+  height: auto;
+  padding: 16px;
+}
+
+.qft span {
+  font-size: 12px;
+}
+
+.three_div_cont {
+  display: flex;
+}
+
+.filter {
+  border-radius: 20px;
+  border: 1px solid rgba(20, 25, 26);
+  padding: 5px 13px;
+  margin-right: 10px;
+}
+
+.filter span {
+  font-size: 12px;
+}
+
+.filter_all {
+  border-radius: 20px;
+  background-color: #c8f8f6;
+  padding: 5px 13px;
+  margin-right: 10px;
+}
+
+.filter_all span {
+  font-size: 12px;
+}
+.chat_sellers {
+  height: 73vh;
+}
+
+.chat_snap {
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 47, 52, 0.2);
+}
+
+.chat_snap_inner {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat_snap_inner:hover {
+  background-color: #ebeeef;
+}
+
+.name_img_msg {
+  display: flex;
+}
+
+.name_ad_name {
+  margin-left: 20px;
+}
+
+.seller_name_1 span {
+  font-weight: 700;
+}
+
+.ad_name_1 {
+  color: #002f34;
+  font-size: 14px;
+}
+
+.delete_chat{
+  margin-top: 15px;
+  position: sticky;
+}
+
+.del_div{
+  width: 100px;
+  height: 60px;
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  position: absolute;
+  top: 55px;
+  right: 82px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.del_div span{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.del_div span:hover{
+  background-color: #9facad;
+}
+
+.no_chat {
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+
+.no_chat img {
+  width: 150px;
+}
+
+.chat {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.ad_user_details {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  padding: 8px 0px 0px 15px;
+  border-bottom: 1px solid rgba(0, 47, 52, 0.2);
+}
+
+.name_photo {
+  display: flex;
+}
+.sq_img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: chocolate;
+  overflow: hidden !important;
+}
+
+.sq_img img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.circle_img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: rgb(30, 210, 186);
+  position: relative;
+  bottom: 25px;
+  left: 35px;
+  overflow: hidden !important;
+}
+
+.circle_img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+.seller_name {
+  margin: 5px 0px 0px 10px;
+}
+
+.seller_name span {
+  font-weight: 600;
+}
+
+.number_sms_icons {
+  margin-top: 7px;
+}
+
+.small_icons {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.small_icons_close {
+  margin-right: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+.small_icons_close:hover {
+  color: blue;
+}
+
+.ad_name_price {
+  height: 30px;
+  display: flex;
+  margin: 5px 0px 0px 15px;
+}
+
+.ad_name {
+  margin-right: 25px;
+}
+
+.msg_snap span {
+  color: #9facad;
+  font-size: 13px;
+}
+
+.time_stamp span {
+  color: #9facad;
+  font-size: 12px;
+}
+
+.ad_name span,
+.ad_price span {
+  color: #002f34;
+  font-size: 14px;
+}
+
+.chat_text_area {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+}
+
+.chat_area {
+  background-color: #ebeeef;
+  height: 73vh;
+  overflow-y: auto;
+}
+
+.attach_input_voice {
+  border-top: 1px solid rgba(0, 47, 52, 0.2);
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.f1 {
+  flex: 1;
+  padding: 5px 0px 5px 5px;
+}
+
+.f2 {
+  flex: 12;
+}
+
+.f2 input {
+  width: 100%;
+  height: 35px;
+  border-width: 0;
+}
+.f2 input:focus {
+  outline: 0;
+}
+
+.f3 {
+  flex: 1;
+  padding: 5px 0px 5px 5px;
+}
+
+.msgDiv{
+  width: 50%;
+  height: auto;
+  margin: 5px 7px 0px 7px;
+  border-radius: 5px !important;
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  background-color: #c8f8f6;
+  padding: 6px;
+}
+
+.msgDiv p{
+  width: 100%;
+  color: #002f34;
+  margin: 0;
+}

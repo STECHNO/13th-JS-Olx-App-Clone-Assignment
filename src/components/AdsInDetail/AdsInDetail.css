@@ -1,0 +1,163 @@
+.bor {
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 0 0 10px 0;
+}
+
+.pr {
+  display: flex;
+  justify-content: space-between;
+}
+.pr h3 {
+  font-weight: 700;
+}
+
+.ad_name p {
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+  color: rgba(0, 47, 52, 0.64);
+  line-height: 24px;
+  word-break: break-word;
+}
+.ad_location {
+  margin-top: 15px;
+}
+.ad_location_map {
+    margin-top: 10px;
+}
+.ad_location_map span {
+  font-size: 12px;
+  color: rgba(0, 47, 52, 0.64);
+}
+
+.ad_location span {
+  font-size: 12px;
+  color: rgba(0, 47, 52, 0.64);
+}
+
+.share_heart span {
+  margin-right: 15px;
+}
+
+.seller_profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seller_img_name {
+  display: flex;
+}
+
+.seller_img {
+  border-radius: 50px;
+  width: 65px;
+  height: 65px;
+  background-color: chocolate;
+}
+
+.seller_img img{
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+  }
+
+.seller_name {
+  padding: 5px 0px 0px 10px;
+}
+.seller_name_span {
+  font-size: 16px;
+  color: #002f34;
+  display: block;
+  padding-right: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.member {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 47, 52, 0.64);
+}
+
+.chat_with_seller {
+  margin-top: 10px;
+}
+
+.right_arrow {
+  padding-top: 7px;
+}
+
+.chat_with_seller button {
+  color: #fff;
+  background-color: #002f34;
+  border-radius: 4px;
+  border: 3px solid #002f34;
+  padding: 0 7px;
+  font-size: 16px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 12px;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  text-decoration: none;
+  width: 100%;
+}
+.chat_with_seller button:hover {
+  color: #002f34;
+  background-color: #fff;
+}
+
+.seller_number {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.dummy_num {
+  font-size: 12px;
+  padding-left: 5px;
+}
+.show_num {
+  text-decoration: underline;
+  color: #6c99ff;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.posted p{
+  font-size: 20px;
+  color: #002f34;
+  display: block;
+  padding-right: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.des,.rel_ad p {
+  font-size: 20px;
+  color: #002f34;
+  display: block;
+  padding-right: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.map_snapshot {
+    margin-top: 7px;
+  width: 100%;
+}
+
+.map_snapshot span img {
+  width: 100%;
+}
+
